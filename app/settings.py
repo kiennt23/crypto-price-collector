@@ -1,0 +1,8 @@
+import logging
+
+BINANCE_API_KEY = os.environ['BINANCE_API_KEY']
+BINANCE_SECRET_KEY = os.environ['BINANCE_SECRET_KEY']
+MONGO_URL = os.environ['MONGO_URL']
+
+LOG_LEVEL = logging.INFO
+SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'ETHBTC']
